@@ -612,14 +612,6 @@ video {
   top: 0px;
 }
 
-.left-\[0\]{
-  left: 0;
-}
-
-.left-0{
-  left: 0px;
-}
-
 .z-10{
   z-index: 10;
 }
@@ -630,10 +622,6 @@ video {
 
 .z-30{
   z-index: 30;
-}
-
-.z-40{
-  z-index: 40;
 }
 
 .mx-auto{
@@ -778,22 +766,6 @@ video {
   margin-top: 30%;
 }
 
-.mr-\[20\%\]{
-  margin-right: 20%;
-}
-
-.ml-\[20\%\]{
-  margin-left: 20%;
-}
-
-.mr-\[100\%\]{
-  margin-right: 100%;
-}
-
-.mr-\[80\%\]{
-  margin-right: 80%;
-}
-
 .block{
   display: block;
 }
@@ -919,10 +891,6 @@ video {
   overflow: hidden;
 }
 
-.overflow-x-hidden{
-  overflow-x: hidden;
-}
-
 .border-2{
   border-width: 2px;
 }
@@ -1044,21 +1012,6 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-28{
-  padding-left: 7rem;
-  padding-right: 7rem;
-}
-
-.px-16{
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -1113,10 +1066,6 @@ video {
 
 .pt-7{
   padding-top: 1.75rem;
-}
-
-.pl-10{
-  padding-left: 2.5rem;
 }
 
 .text-center{
@@ -1290,10 +1239,6 @@ video {
   transition-duration: 300ms;
 }
 
-.duration-1000{
-  transition-duration: 1000ms;
-}
-
 .duration-500{
   transition-duration: 500ms;
 }
@@ -1395,44 +1340,13 @@ button:hover svg path{
   animation: bounce 1s infinite;
 }
 
-@keyframes ping{
-  75%, 100%{
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.hover\:animate-ping:hover{
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-
-@keyframes pulse{
-  50%{
-    opacity: .5;
-  }
-}
-
-.hover\:animate-pulse:hover{
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-@keyframes spin{
-  to{
-    transform: rotate(360deg);
-  }
-}
-
-.hover\:animate-spin:hover{
-  animation: spin 1s linear infinite;
-}
-
 .hover\:border-none:hover{
   border-style: none;
 }
 
-.hover\:border-orange-300:hover{
+.hover\:border-red-700:hover{
   --tw-border-opacity: 1;
-  border-color: rgb(253 186 116 / var(--tw-border-opacity));
+  border-color: rgb(185 28 28 / var(--tw-border-opacity));
 }
 
 .hover\:bg-\[\#bd0004\]:hover{
@@ -1443,11 +1357,6 @@ button:hover svg path{
 .hover\:bg-gray-400:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-teal-300:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(94 234 212 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-white:hover{
@@ -1461,16 +1370,6 @@ button:hover svg path{
 
 .hover\:stroke-white:hover{
   stroke: #fff;
-}
-
-.hover\:text-xl:hover{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.hover\:text-2xl:hover{
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .hover\:text-lg:hover{
@@ -1608,8 +1507,8 @@ button:hover svg path{
     margin-left: 0px;
   }
 
-  .md\:ml-10{
-    margin-left: 2.5rem;
+  .md\:ml-16{
+    margin-left: 4rem;
   }
 
   .md\:mt-0{
@@ -1626,10 +1525,6 @@ button:hover svg path{
 
   .md\:mt-\[10\%\]{
     margin-top: 10%;
-  }
-
-  .md\:ml-16{
-    margin-left: 4rem;
   }
 
   .md\:block{
@@ -1701,8 +1596,8 @@ button:hover svg path{
     height: 100%;
   }
 
-  .lg\:w-1\/4{
-    width: 25%;
+  .lg\:w-\[23\%\]{
+    width: 23%;
   }
 
   .lg\:w-\[32\%\]{
@@ -1711,10 +1606,6 @@ button:hover svg path{
 
   .lg\:w-auto{
     width: auto;
-  }
-
-  .lg\:w-\[23\%\]{
-    width: 23%;
   }
 
   .lg\:flex-row{
@@ -1748,14 +1639,6 @@ button:hover svg path{
 
   .xl\:min-h-screen{
     min-height: 100vh;
-  }
-
-  .xl\:w-1\/5{
-    width: 20%;
-  }
-
-  .xl\:w-\[19\%\]{
-    width: 19%;
   }
 
   .xl\:w-\[18\%\]{
